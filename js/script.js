@@ -1,24 +1,9 @@
 "use strict";
 
+const answers = [];
 
-console.log('arr' + "-obgect");
-console.log(4 + "5");
+answers[0] = prompt('Как ваше имя?', '');
+answers[1] = prompt('Как ваша фамилия?', '');
+answers[2] = prompt('Сколько вам лет?', '');
 
-
-let incr = 10,
-    decr = 10;
-
-/* ++incr;
---decr; */
-
-console.log(++incr);
-console.log(--decr);
-
-console.log(5%2);
-
-console.log(2*4 === 8);
-
-const isChecked = false,
-      isClose = false;
-      
-console.log(isChecked || !isClose);
+document.write(answers);
